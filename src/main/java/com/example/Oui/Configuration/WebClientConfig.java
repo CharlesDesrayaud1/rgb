@@ -8,7 +8,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 @Configuration
 public class WebClientConfig {
     private WebClient webClient;
-    private static final String URL = "https://rugby-live-data.p.rapidapi.com";
+    private static final String URL = "";
 
     @Bean
     public WebClient getWebClient() {

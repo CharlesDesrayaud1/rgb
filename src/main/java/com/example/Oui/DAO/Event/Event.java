@@ -1,5 +1,6 @@
 package com.example.Oui.DAO.Event;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 
 import javax.persistence.*;
@@ -14,14 +15,18 @@ public abstract class Event {
     private int id;
 
     @Column(name = "timer")
+    @JsonProperty("timer")
     private int timer;
 
     @Column(name = "player")
+    @JsonProperty("player")
     private String player;
 
     @Column(name = "fixture")
+    @JsonProperty("fixture")
     private String fixture;
 
     @Column(name = "team")
+    @JsonProperty("team")
     private String team;
 }
