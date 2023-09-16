@@ -1,8 +1,8 @@
 {
+  "type": "mark",
   "timer": 2,
   "player": "Mark TELEA",
   "fixture": "France - Nouvelle-Zélande",
   "team": "Nouvelle-Zélande",
-  "type": "mark",
-  "markType": "tri"
+  "markType": "drop"
 }
