@@ -38,8 +38,8 @@ public class EventService {
     }
 
     public void saveEvent(Event event){
-        //eventRepository.save(event);
-        System.out.println(markRepository.findById(5).getClass());
+        eventRepository.save(event);
+        //System.out.println(markRepository.findById(2).getClass());
     }
 
 }

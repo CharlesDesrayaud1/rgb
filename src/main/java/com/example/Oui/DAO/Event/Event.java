@@ -26,7 +26,8 @@ import javax.persistence.*;
         property = "type")
 @JsonSubTypes({
         @JsonSubTypes.Type(value = Mark.class, name = "mark"),
-        @JsonSubTypes.Type(value = Penalty.class, name = "Penalty")
+        @JsonSubTypes.Type(value = Penalty.class, name = "penalty"),
+        @JsonSubTypes.Type(value = Substitution.class, name = "substitution")
 })
 public abstract class Event {
     @Id
