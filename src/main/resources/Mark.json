@@ -4,5 +4,8 @@
   "team": "Nouvelle-Zélande",
   "type": "mark",
   "markType": "tri",
-  "fixture": 1
+  "fixture": {
+    "id": 1
+  }
+
 }
