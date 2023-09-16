@@ -1,8 +1,16 @@
 {
   "timer": 2,
   "player": "Mark TELEA",
-  "fixture": "France - Nouvelle-Zélande",
   "team": "Nouvelle-Zélande",
   "type": "mark",
-  "markType": "tri"
+  "markType": "tri",
+  "fixture": {
+    "id": 1,
+    "team_home": "France",
+    "team_away": "New-Zealand",
+    "match_type": "pool A",
+    "stadium": "Stade de France",
+    "referee": "Jacko Peyper",
+    "date": "08-09-2023"
+  }
 }

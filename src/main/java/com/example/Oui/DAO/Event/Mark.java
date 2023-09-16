@@ -16,7 +16,7 @@ public class Mark extends Event {
     private MarkType markType;
     @JsonCreator
     public Mark(@JsonProperty("player") String player,
-                @JsonProperty("fixture") String fixture,
+                @JsonProperty("fixture") Fixture fixture,
                 @JsonProperty("team") String team,
                 @JsonProperty("timer") int timer,
                 @JsonProperty("markType") MarkType markType){

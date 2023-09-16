@@ -10,7 +10,7 @@ public class Penalty extends Event {
     private PenaltyType penaltyType;
     @JsonCreator
     public Penalty(@JsonProperty("player") String player,
-                @JsonProperty("fixture") String fixture,
+                @JsonProperty("fixture") Fixture fixture,
                 @JsonProperty("team") String team,
                 @JsonProperty("timer") int timer,
                 @JsonProperty("penaltyType") PenaltyType penaltyType){

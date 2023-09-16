@@ -10,7 +10,7 @@ public class Substitution extends Event {
     private String playerSub;
     @JsonCreator
     public Substitution(@JsonProperty("player") String player,
-                @JsonProperty("fixture") String fixture,
+                @JsonProperty("fixture") Fixture fixture,
                 @JsonProperty("team") String team,
                 @JsonProperty("timer") int timer,
                 @JsonProperty("playerSub") String playerSub){

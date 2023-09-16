@@ -41,7 +41,8 @@ public abstract class Event {
     private String player;
 
     @Column(name = "fixture")
-    private String fixture;
+    @ManyToOne
+    private Fixture fixture;
 
     @Column(name = "team")
     private String team;
