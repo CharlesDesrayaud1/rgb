@@ -1,5 +1,6 @@
 package com.example.Oui.DAO.Event;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
@@ -46,4 +47,12 @@ public abstract class Event {
 
     @Column(name = "team")
     private String team;
+
+    public Event(int id, int timer, String player, String team){
+        this.id = id;
+        this.timer = timer;
+        this.player = player;
+        this.team = team;
+    }
+
 }
