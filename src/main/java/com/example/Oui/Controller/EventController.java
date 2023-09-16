@@ -1,4 +1,4 @@
-package com.example.Oui;
+package com.example.Oui.Controller;
 
 import com.example.Oui.DAO.Event.Event;
 import org.springframework.web.bind.annotation.GetMapping;

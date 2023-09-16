@@ -34,19 +34,19 @@ public class EventService {
                 .retrieve()
                 .bodyToMono(String.class)
                 .block();
-        System.out.println(string);
+        //System.out.println(string);
         ObjectMapper objectMapper = new ObjectMapper();
         EventList eventList = objectMapper.readValue(string, EventList.class);
         saveAllEvent(eventList);
-        System.out.println(eventList);
+        //System.out.println(eventList);
     }
 
     public void saveAllEvent(EventList eventList){
         List<Event> eventList1 = eventRepository.findAll();
-        int size = eventList.getEventList().size();
-        int diff = size-eventList1.size();
-        if(diff>0){
-            eventRepository.saveAll(eventList.getEventList().subList(diff, size-1));
+        int sizeInput = eventList.getEventList().size();
+        int sizeDB = eventList1.size();
+        if(sizeInput - sizeDB>0){
+            eventRepository.saveAll(eventList.getEventList().subList(sizeDB, sizeInput));
         }
     }
 
