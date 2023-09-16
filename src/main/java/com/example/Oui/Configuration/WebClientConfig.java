@@ -8,7 +8,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 @Configuration
 public class WebClientConfig {
     private WebClient webClient;
-    private static final String URL = "https://raw.githubusercontent.com/CharlesDesrayaud1/rgb/main/src/main/resources/Substitution.json";
+    private static final String URL = "https://raw.githubusercontent.com/CharlesDesrayaud1/rgb/main/src/main/resources/Mark.json";
 
     @Bean
     public WebClient getWebClient() {

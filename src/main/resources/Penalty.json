@@ -4,5 +4,5 @@
   "fixture": "France - Nouvelle-Zélande",
   "team": "France",
   "type": "penalty",
-  "penaltyType": "simplePenalty"
+  "penaltyType": "SimplePenalty"
 }
