@@ -1,12 +1,30 @@
 package com.example.Oui.DAO.Event;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
+
 import javax.persistence.Entity;
+import java.beans.ConstructorProperties;
 
 @Entity(name = "mark")
 public class Mark extends Event {
+
     private MarkType markType;
-    public Mark(int id, String player, String fixture, String team, int timer, MarkType markType){
-        super(id, timer, player, fixture, team);
+    @JsonCreator
+    public Mark(@JsonProperty("player") String player,
+                @JsonProperty("fixture") String fixture,
+                @JsonProperty("team") String team,
+                @JsonProperty("timer") int timer,
+                @JsonProperty("markType") MarkType markType){
+        super(0, timer, player, fixture, team);
         this.markType = markType;
+    }
+
+    public Mark(){
+        super();
     }
 }
