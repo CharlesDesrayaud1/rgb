@@ -36,8 +36,9 @@ public class EventService {
                 .block();
         //System.out.println(string);
         ObjectMapper objectMapper = new ObjectMapper();
-        EventList eventList = objectMapper.readValue(string, EventList.class);
-        saveAllEvent(eventList);
+        //EventList eventList = objectMapper.readValue(string, EventList.class);
+        Event event = objectMapper.readValue(string, Event.class);
+        //saveAllEvent(eventList);
         //System.out.println(eventList);
     }
 

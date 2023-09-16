@@ -30,6 +30,7 @@ import javax.persistence.*;
         @JsonSubTypes.Type(value = Penalty.class, name = "penalty"),
         @JsonSubTypes.Type(value = Substitution.class, name = "substitution")
 })
+
 public abstract class Event {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -47,12 +48,5 @@ public abstract class Event {
 
     @Column(name = "team")
     private String team;
-
-    public Event(int id, int timer, String player, String team){
-        this.id = id;
-        this.timer = timer;
-        this.player = player;
-        this.team = team;
-    }
-
+    
 }

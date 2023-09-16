@@ -20,4 +20,5 @@ public class Fixture {
     private String stadium;
     private String referee;
     private Date date;
+
 }
