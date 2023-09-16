@@ -3,6 +3,7 @@ package com.example.Oui.Service;
 
 
 import com.example.Oui.DAO.Event.Event;
+import com.example.Oui.DAO.Event.EventList;
 import com.example.Oui.Repository.EventRepository;
 import com.example.Oui.Repository.MarkRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -14,6 +15,8 @@ import org.springframework.context.annotation.Bean;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
+
+import java.util.List;
 
 @Service
 @Data
@@ -33,13 +36,18 @@ public class EventService {
                 .block();
         System.out.println(string);
         ObjectMapper objectMapper = new ObjectMapper();
-        Event event = objectMapper.readValue(string, Event.class);
-        saveEvent(event);
+        EventList eventList = objectMapper.readValue(string, EventList.class);
+        saveAllEvent(eventList);
+        System.out.println(eventList);
     }
 
-    public void saveEvent(Event event){
-        eventRepository.save(event);
-        //System.out.println(markRepository.findById(2).getClass());
+    public void saveAllEvent(EventList eventList){
+        List<Event> eventList1 = eventRepository.findAll();
+        int size = eventList.getEventList().size();
+        int diff = size-eventList1.size();
+        if(diff>0){
+            eventRepository.saveAll(eventList.getEventList().subList(diff, size-1));
+        }
     }
 
 }

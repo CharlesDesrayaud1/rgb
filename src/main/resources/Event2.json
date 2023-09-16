@@ -1,0 +1,42 @@
+[
+  {
+    "type": "mark",
+    "timer": 2,
+    "player": "Mark TELEA",
+    "fixture": "France - Nouvelle-Zélande",
+    "team": "Nouvelle-Zélande",
+    "markType": "drop"
+  },
+  {
+    "type": "penalty",
+    "timer": 46,
+    "player": "Gabin Villière",
+    "fixture": "France - Nouvelle-Zélande",
+    "team": "France",
+    "penaltyType": "SimplePenalty"
+  },
+  {
+    "type": "substitution",
+    "timer": 5,
+    "player": "Julien Marchand",
+    "fixture": "France - Nouvelle-Zélande",
+    "team": "France",
+    "playerSub": "Peato Mauvaka"
+  },
+  {
+    "type": "substitution",
+    "timer": 70,
+    "player": "Antoine Dupont",
+    "fixture": "France - Nouvelle-Zélande",
+    "team": "France",
+    "playerSub": "Maxime Lucu"
+  },
+  {
+    "type": "substitution",
+    "timer": 70,
+    "player": "Scott Barrett",
+    "fixture": "France - Nouvelle-Zélande",
+    "team": "Nouvelle-Zélande",
+    "playerSub": "Brodie Retallick"
+  }
+]
