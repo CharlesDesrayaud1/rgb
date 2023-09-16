@@ -40,8 +40,8 @@ public abstract class Event {
     @Column(name = "player")
     private String player;
 
-    @Column(name = "fixture")
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "fixture_id")
     private Fixture fixture;
 
     @Column(name = "team")

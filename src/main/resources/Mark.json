@@ -4,13 +4,5 @@
   "team": "Nouvelle-Zélande",
   "type": "mark",
   "markType": "tri",
-  "fixture": {
-    "id": 1,
-    "team_home": "France",
-    "team_away": "New-Zealand",
-    "match_type": "pool A",
-    "stadium": "Stade de France",
-    "referee": "Jacko Peyper",
-    "date": "08-09-2023"
-  }
+  "fixture": 1
 }
