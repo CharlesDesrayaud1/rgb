@@ -19,7 +19,7 @@
     "type": "mark",
     "timer": 1,
     "player": "Mark TELEA",
-    "team": "Nouvelle-Zealand",
+    "team": "New-Zealand",
     "markType": "tri",
     "fixture": {
       "id": 1,
@@ -307,7 +307,7 @@
     "type": "mark",
     "timer": 42,
     "player": "Mark Telea",
-    "team": "Nouvelle-Zealand",
+    "team": "New-Zealand",
     "markType": "tri",
     "fixture": {
       "id": 1,
@@ -323,7 +323,7 @@
     "type": "penalty",
     "timer": 46,
     "player": "Mark Telea",
-    "team": "Nouvelle-Zealand",
+    "team": "New-Zealand",
     "penaltyType": "ForwardPass",
     "fixture": {
       "id": 1,
@@ -419,7 +419,7 @@
     "type": "penalty",
     "timer": 54,
     "player": "Luke Jacobson",
-    "team": "Nouvelle-Zealand",
+    "team": "New-Zealand",
     "penaltyType": "SimplePenalty",
     "fixture": {
       "id": 1,
@@ -483,7 +483,7 @@
     "type": "penalty",
     "timer": 57,
     "player": "Will Jordan",
-    "team": "Nouvelle-Zealand",
+    "team": "New-Zealand",
     "penaltyType": "YellowCard",
     "fixture": {
       "id": 1,
@@ -499,7 +499,7 @@
     "type": "penalty",
     "timer": 58,
     "player": "Scott Barrett",
-    "team": "Nouvelle-Zealand",
+    "team": "New-Zealand",
     "penaltyType": "SimplePenalty",
     "fixture": {
       "id": 1,
@@ -563,7 +563,7 @@
     "type": "penalty",
     "timer": 63,
     "player": "Finlay Christie",
-    "team": "Nouvelle-Zealand",
+    "team": "New-Zealand",
     "penaltyType": "SimplePenalty",
     "fixture": {
       "id": 1,
@@ -595,7 +595,7 @@
     "type": "penalty",
     "timer": 67,
     "player": "Mark Telea",
-    "team": "Nouvelle-Zealand",
+    "team": "New-Zealand",
     "penaltyType": "SimplePenalty",
     "fixture": {
       "id": 1,
@@ -643,7 +643,7 @@
     "type": "penalty",
     "timer": 72,
     "player": "Will Jordan",
-    "team": "Nouvelle-Zealand",
+    "team": "New-Zealand",
     "penaltyType": "SimplePenalty",
     "fixture": {
       "id": 1,
@@ -675,7 +675,7 @@
     "type": "penalty",
     "timer": 74,
     "player": "Samisoni Taukei'aho",
-    "team": "Nouvelle-Zealand",
+    "team": "New-Zealand",
     "penaltyType": "SimplePenalty",
     "fixture": {
       "id": 1,
@@ -739,7 +739,7 @@
     "type": "penalty",
     "timer": 80,
     "player": "Ardie Savea",
-    "team": "Nouvelle-Zealand",
+    "team": "New-Zealand",
     "penaltyType": "ForwardPass",
     "fixture": {
       "id": 1,

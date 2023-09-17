@@ -11,6 +11,7 @@ import javax.persistence.Entity;
 import java.beans.ConstructorProperties;
 
 @Entity(name = "mark")
+@Data
 public class Mark extends Event {
 
     private MarkType markType;
