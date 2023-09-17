@@ -43,7 +43,7 @@ public abstract class Event {
     private String player;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "fixture_id")
+    @JoinColumn(name = "fixture")
     private Fixture fixture;
 
     @Column(name = "team")

@@ -5,6 +5,7 @@ package com.example.Oui.Service;
 import com.example.Oui.DAO.Event.Event;
 import com.example.Oui.DAO.Event.EventList;
 import com.example.Oui.Repository.EventRepository;
+import com.example.Oui.Repository.FixtureRepository;
 import com.example.Oui.Repository.MarkRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -27,6 +28,7 @@ public class EventService {
     private WebClient webClient;
     private EventRepository eventRepository;
     private MarkRepository markRepository;
+    private FixtureRepository fixtureRepository;
     @Bean
     public void getEvents() throws JsonProcessingException {
         String string = this.webClient
@@ -36,10 +38,13 @@ public class EventService {
                 .block();
         //System.out.println(string);
         ObjectMapper objectMapper = new ObjectMapper();
-        //EventList eventList = objectMapper.readValue(string, EventList.class);
-        Event event = objectMapper.readValue(string, Event.class);
-        //saveAllEvent(eventList);
-        //System.out.println(eventList);
+        EventList eventList = objectMapper.readValue(string, EventList.class);
+        //Event event = objectMapper.readValue(string, Event.class);
+        //fixtureRepository.save(event.getFixture());
+        //eventRepository.save(event);
+        //System.out.println(event.getFixture());
+        saveAllEvent(eventList);
+        System.out.println(eventList);
     }
 
     public void saveAllEvent(EventList eventList){

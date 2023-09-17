@@ -1,26 +1,754 @@
 [
   {
+    "type": "penalty",
+    "timer": 1,
+    "player": "Gabin Villière",
+    "team": "France",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
     "type": "mark",
-    "timer": 2,
+    "timer": 1,
     "player": "Mark TELEA",
-    "fixture": "France - Nouvelle-Zélande",
     "team": "Nouvelle-Zélande",
-    "markType": "drop"
+    "markType": "tri",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 4,
+    "player": "Luke Jacobson",
+    "team": "New-Zealand",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "mark",
+    "timer": 4,
+    "player": "Thomas Ramos",
+    "team": "France",
+    "markType": "penalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 5,
+    "player": "Thibaut Flament",
+    "team": "France",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 6,
+    "player": "Beauden Barrett",
+    "team": "New-Zealand",
+    "penaltyType": "ForwardPass",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 10,
+    "player": "Julien Marchand",
+    "team": "France",
+    "penaltyType": "ForwardPass",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "substitution",
+    "timer": 12,
+    "player": "Julien Marchand",
+    "team": "France",
+    "playerSub": "Peato Mauvaka",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 12,
+    "player": "Will Jordan",
+    "team": "New-Zealand",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 16,
+    "player": "Mark Telea",
+    "team": "New-Zealand",
+    "penaltyType": "ForwardPass",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 17,
+    "player": "Ethan De Groot",
+    "team": "New-Zealand",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "mark",
+    "timer": 19,
+    "player": "Thomas Ramos",
+    "team": "France",
+    "markType": "penalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 21,
+    "player": "Thomas Ramos",
+    "team": "France",
+    "markType": "ForwardPass",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 23,
+    "player": "Gaël Fickou",
+    "team": "France",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "mark",
+    "timer": 25,
+    "player": "Richie Mo'unga",
+    "team": "New-Zealand",
+    "markType": "penalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 27,
+    "player": "Ethan De Groot",
+    "team": "New-Zealand",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "mark",
+    "timer": 28,
+    "player": "Thomas Ramos",
+    "team": "France",
+    "markType": "penalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 31,
+    "player": "Sam Whitelock",
+    "team": "New-Zealand",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 41,
+    "player": "Francois Cros",
+    "team": "France",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "mark",
+    "timer": 42,
+    "player": "Mark Telea",
+    "team": "Nouvelle-Zélande",
+    "markType": "tri",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
   },
   {
     "type": "penalty",
     "timer": 46,
-    "player": "Gabin Villière",
-    "fixture": "France - Nouvelle-Zélande",
-    "team": "France",
-    "penaltyType": "SimplePenalty"
+    "player": "Mark Telea",
+    "team": "Nouvelle-Zélande",
+    "penaltyType": "ForwardPass",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
   },
   {
     "type": "substitution",
-    "timer": 5,
-    "player": "Julien Marchand",
-    "fixture": "France - Nouvelle-Zélande",
+    "timer": 48,
+    "player": "Cameron Woki",
     "team": "France",
-    "playerSub": "Peato Mauvaka"
+    "playerSub": "Romain Taofifenua",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "substitution",
+    "timer": 52,
+    "player": "Reda Wardi",
+    "team": "France",
+    "playerSub": "Jean-Baptiste Gros",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "substitution",
+    "timer": 52,
+    "player": "Uini Atonio",
+    "team": "France",
+    "playerSub": "Dorian Aldegherri",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "substitution",
+    "timer": 52,
+    "player": "Ethan De Groot",
+    "team": "New-Zealand",
+    "playerSub": "Ofa Tu'Ungafasi",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "substitution",
+    "timer": 52,
+    "player": "Nepo Laulala",
+    "team": "New-Zealand",
+    "playerSub": "Fletcher Newell",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 54,
+    "player": "Luke Jacobson",
+    "team": "Nouvelle-Zélande",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "mark",
+    "timer": 54,
+    "player": "Damian Penaud",
+    "team": "France",
+    "markType": "tri",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "mark",
+    "timer": 54,
+    "player": "Thomas Ramos",
+    "team": "France",
+    "markType": "transformation",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "substitution",
+    "timer": 56,
+    "player": "Codie Taylor",
+    "team": "New-Zealand",
+    "playerSub": "Samisoni Taukei'aho",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 57,
+    "player": "Will Jordan",
+    "team": "Nouvelle-Zélande",
+    "penaltyType": "YellowCard",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 58,
+    "player": "Scott Barrett",
+    "team": "Nouvelle-Zélande",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+  "type": "substitution",
+  "timer": 58,
+  "player": "Yoram Moefana",
+  "team": "France",
+  "playerSub": "Arthur Vincent",
+  "fixture": {
+    "id": 1,
+    "team_home": "France",
+    "team_away": "New-Zealand",
+    "match_type": "pool A",
+    "stadium": "Stade de France",
+    "referee": "Jacko Peyper",
+    "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "substitution",
+    "timer": 62,
+    "player": "François Cros",
+    "team": "France",
+    "playerSub": "Paul Boudéhent",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "substitution",
+    "timer": 62,
+    "player": "Aaron Smith",
+    "team": "New-Zealand",
+    "playerSub": "Finlay Christie",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 63,
+    "player": "Finlay Christie",
+    "team": "Nouvelle-Zélande",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "mark",
+    "timer": 64,
+    "player": "Thomas Ramos",
+    "team": "France",
+    "markType": "penalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 67,
+    "player": "Mark Telea",
+    "team": "Nouvelle-Zélande",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 67,
+    "player": "Damian Penaud",
+    "team": "France",
+    "penaltyType": "ForwardPass",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "substitution",
+    "timer": 71,
+    "player": "Mark Telea",
+    "team": "New-Zealand",
+    "playerSub": "Leicester Fainga'Anuku",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 72,
+    "player": "Will Jordan",
+    "team": "Nouvelle-Zélande",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "mark",
+    "timer": 73,
+    "player": "Thomas Ramos",
+    "team": "France",
+    "markType": "penalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 74,
+    "player": "Samisoni Taukei'aho",
+    "team": "Nouvelle-Zélande",
+    "penaltyType": "SimplePenalty",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "substitution",
+    "timer": 75,
+    "player": "Thomas Ramos",
+    "team": "France",
+    "playerSub": "Melvyn Jaminet",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "substitution",
+    "timer": 75,
+    "player": "Antoine Dupont",
+    "team": "France",
+    "playerSub": "Maxime Lucu",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "mark",
+    "timer": 77,
+    "player": "Melvyn Jaminet",
+    "team": "France",
+    "markType": "tri",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
+  },
+  {
+    "type": "penalty",
+    "timer": 80,
+    "player": "Ardie Savea",
+    "team": "Nouvelle-Zélande",
+    "penaltyType": "ForwardPass",
+    "fixture": {
+      "id": 1,
+      "team_home": "France",
+      "team_away": "New-Zealand",
+      "match_type": "pool A",
+      "stadium": "Stade de France",
+      "referee": "Jacko Peyper",
+      "date": "2023-09-08T21:00:00.000"
+    }
   }
 ]

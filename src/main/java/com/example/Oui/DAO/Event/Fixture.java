@@ -3,16 +3,20 @@ package com.example.Oui.DAO.Event;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Table(name = "fixture")
+@Data
+@NoArgsConstructor
 public class Fixture {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @JsonProperty("id")
+    @Column(nullable = false)
     private int id;
     private String team_home;
     private String team_away;
@@ -37,7 +41,6 @@ public class Fixture {
         this.stadium = stadium;
         this.referee = referee;
         this.date = date;
-
     }
 
 }
