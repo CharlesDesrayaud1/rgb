@@ -2,10 +2,12 @@ package com.example.Oui.DAO.Event;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
 
 import javax.persistence.Entity;
 
 @Entity(name = "penalty")
+@Data
 public class Penalty extends Event {
     private PenaltyType penaltyType;
     @JsonCreator

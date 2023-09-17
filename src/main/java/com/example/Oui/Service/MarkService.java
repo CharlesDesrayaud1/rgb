@@ -20,11 +20,11 @@ public class MarkService {
     }
 
     public String getResult(int id){
-        Fixture fixture = fixtureService.getFixtureByID(id);
+        Fixture fixture = fixtureService.getByID(id);
         String teamHome = fixture.getTeam_home();
         String teamAway = fixture.getTeam_away();
-        List<Mark> markListHome = markRepository.findByTeam(teamHome);
-        List<Mark> markListAway = markRepository.findByTeam(teamAway);
+        List<Mark> markListHome = markRepository.findByFixtureAndTeam(fixture, teamHome);
+        List<Mark> markListAway = markRepository.findByFixtureAndTeam(fixture, teamAway);
         int scoreHome = 0;
         int scoreAway = 0;
         for(Mark mark : markListHome){
@@ -33,7 +33,7 @@ public class MarkService {
         for(Mark mark : markListAway){
             scoreAway = scoreAway + pointCalculation(mark.getMarkType());
         }
-        return scoreHome + "-" + scoreAway;
+        return teamHome+" "+scoreHome + "-" + scoreAway+" "+teamAway;
     }
 
     private int pointCalculation(MarkType markType){

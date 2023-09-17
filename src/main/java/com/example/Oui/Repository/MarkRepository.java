@@ -12,4 +12,5 @@ import java.util.Optional;
 public interface MarkRepository extends JpaRepository<Mark, Integer> {
     Mark findById(int id);
     List<Mark> findByTeam(String team);
+    List<Mark> findByFixtureAndTeam(Fixture fixture, String team);
 }

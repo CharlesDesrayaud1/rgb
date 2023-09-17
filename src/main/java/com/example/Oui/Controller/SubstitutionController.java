@@ -7,6 +7,7 @@ import com.example.Oui.Service.SubstitutionService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -17,8 +18,13 @@ import java.util.List;
 public class SubstitutionController {
 
     private SubstitutionService substitutionService;
-    @GetMapping("/all")
+    @GetMapping
     public List<Substitution> getAll(){
         return substitutionService.getAllSubstitution();
+    }
+
+    @GetMapping("/subbyid")
+    public List<Substitution> getSubstitutionByTeam(@RequestParam(name = "id") int id, @RequestParam(name = "team") String team){
+        return substitutionService.getByTeamAndMatch(id, team);
     }
 }

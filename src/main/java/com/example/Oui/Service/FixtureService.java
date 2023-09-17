@@ -11,7 +11,7 @@ public class FixtureService {
 
     private FixtureRepository fixtureRepository;
 
-    public Fixture getFixtureByID(int id){
+    public Fixture getByID(int id){
         return fixtureRepository.findById(id);
     }
 
