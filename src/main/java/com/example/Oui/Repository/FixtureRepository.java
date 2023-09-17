@@ -6,4 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface FixtureRepository extends JpaRepository<Fixture, Integer> {
+
+    Fixture findById(int id);
+
 }

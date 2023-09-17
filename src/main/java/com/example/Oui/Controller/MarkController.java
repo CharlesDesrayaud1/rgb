@@ -5,6 +5,7 @@ import com.example.Oui.Service.MarkService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -18,6 +19,11 @@ public class MarkController {
     @GetMapping("/all")
     public List<Mark> getAll(){
         return markService.getAllMark();
+    }
+
+    @GetMapping("/result")
+    public String getResult(@RequestParam(name = "id") int id){
+        return markService.getResult(id);
     }
 
 }
