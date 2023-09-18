@@ -42,4 +42,22 @@ public class Fixture {
         this.date = date;
     }
 
+    @JsonCreator
+    public Fixture(
+                   @JsonProperty("team_home") String team_home,
+                   @JsonProperty("team_away") String team_away,
+                   @JsonProperty("match_type") String match_type,
+                   @JsonProperty("stadium") String stadium,
+                   @JsonProperty("referee") String referee,
+                   @JsonProperty("date") Date date
+    ){
+        this.id = 0;
+        this.team_home = team_home;
+        this.team_away = team_away;
+        this.match_type = match_type;
+        this.stadium = stadium;
+        this.referee = referee;
+        this.date = date;
+    }
+
 }
