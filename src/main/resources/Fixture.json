@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "team_home": "France",
+    "team_away": "New-Zealand",
+    "match_type": "pool A",
+    "stadium": "Stade de France",
+    "referee": "Jacko Peyper",
+    "date": "2023-09-08T21:00:00.000"
+  },
+  {
+    "id": 2,
+    "team_home": "Italy",
+    "team_away": "Namibia",
+    "match_type": "pool A",
+    "stadium": "Stade Geoffroy-Guichard",
+    "referee": "Andrew",
+    "date": "2023-09-09T13:00:00.000"
+  },
+  {
+    "id": 3,
+    "team_home": "Ireland",
+    "team_away": "Romania",
+    "match_type": "pool B",
+    "stadium": "Stade de Bordeaux",
+    "referee": "Nika Amashukeli",
+    "date": "2023-09-08T15:30:00.000"
+  },
+  {
+    "id": 4,
+    "team_home": "Australia",
+    "team_away": "Georgia",
+    "match_type": "pool C",
+    "stadium": "Stade de France",
+    "referee": "Luke Pierce",
+    "date": "2023-09-08T18:00:00.000"
+  },
+  {
+    "id": 5,
+    "team_home": "England",
+    "team_away": "Argentina",
+    "match_type": "pool D",
+    "stadium": "Stade de Marseille",
+    "referee": "Mathieu Raynal",
+    "date": "2023-09-08T21:00:00.000"
+  },
+  {
+    "id": 6,
+    "team_home": "Japan",
+    "team_away": "Chile",
+    "match_type": "pool D",
+    "stadium": "Stadium de Toulouse",
+    "referee": "Nic Berry",
+    "date": "2023-09-10T15:30:00.000"
+  },
+  {
+    "id": 7,
+    "team_home": "South Africa",
+    "team_away": "Scotland",
+    "match_type": "pool B",
+    "stadium": "Stade de Marseille",
+    "referee": "Angus Gardner",
+    "date": "2023-09-10T17:45:00.000"
+  },
+  {
+    "id": 8,
+    "team_home": "Wales",
+    "team_away": "Fiji",
+    "match_type": "pool C",
+    "stadium": "Stade de Bordeaux",
+    "referee": "Matthew Carley",
+    "date": "2023-09-10T15:30:00.000"
+  }
+]
